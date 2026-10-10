@@ -4,6 +4,8 @@ import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { socket } from '../useSocket'
 import logo_img from '../assets/Logo.jpg'
 import logo from '../assets/Tenbin_Logo.svg'
+import textSound from '../assets/sfx/lightOnnn.mp3'
+import lightSound from '..assets/sfx/lightOn.wav'
 import Logo from './Logo.vue'
 import { useGame } from '../composables/useGame'
 import { Snackbar } from '@varlet/ui'
@@ -14,8 +16,8 @@ import Rules from './Rules.vue'
 const { isJoining } = useGame()
 const isBlack = ref(false)
 const isLamp = ref(false)
-const sound = new Audio('../assets/sfx/lightOn.wav')
-const text = new Audio('../assets/sfx/lightOnnn.mp3')
+const sound = new Audio(lightSound)
+const text = new Audio(textSound)
 
 let name = ref("")
 
