@@ -63,7 +63,6 @@ ul::-webkit-scrollbar {
 
 #dashboard_content {
     position: relative;
-    filter: brightness(1.5);
     flex: 1;
     align-items: center;
     display: flex;
