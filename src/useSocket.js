@@ -1,5 +1,5 @@
 import { io } from 'socket.io-client'
 
-const server_url = 'http://localhost:3000/'
+const server_url = 'https://tenbinn.onrender.com/'
 
 export const socket = io(server_url)
