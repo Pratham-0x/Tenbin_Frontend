@@ -44,7 +44,7 @@ const { round_record } = useGame()
 
 .new_row{
     animation: slide 0.4s ease;
-    background-color: rbg(0,255,0,0.1);
+    background-color: rgb(0,255,0,0.1);
 }
 @keyframes slide {
     from{
