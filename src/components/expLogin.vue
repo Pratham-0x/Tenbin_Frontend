@@ -14,8 +14,8 @@ import Rules from './Rules.vue'
 const { isJoining } = useGame()
 const isBlack = ref(false)
 const isLamp = ref(false)
-const sound = new Audio('/src/assets/sfx/lightOn.wav')
-const text = new Audio('/src/assets/sfx/lightOnnn.mp3')
+const sound = new Audio('../assets/sfx/lightOn.wav')
+const text = new Audio('../assets/sfx/lightOnnn.mp3')
 
 let name = ref("")
 
